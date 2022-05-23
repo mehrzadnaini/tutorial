@@ -1,45 +1,43 @@
-.grid {
+.logo {
     display:inline-grid;
     grid-template-columns:auto auto;
     gap:5px;
     width: 10vw;
 }
 
-.top-right {
-    border: 1px solid black;
-    width: 20%;
-    height: 60px;
+.grid2 {
+    border: 1vw solid black;
+    width: 2vw;
+    height: 2vw;
     background-color: rgb(0, 0, 0);
-    border-radius: 0 100px 100px 0;
-    margin-top: 200px;
+    border-radius: 0 100vw 100vw 0;
+    margin-top: 7vw;
 }
 
-.top-left {
+.grid1 {
    
     width: 0;
     height: 0;
-    border-top: 62px solid transparent;
-    border-right: 65px solid #000000;
-    border-bottom: 0px solid transparent;
-    margin-left: 297px;
-    margin-top: 200px;
+    border-top: 4vw solid transparent;
+    border-right: 4vw solid black;
+    border-bottom: 0 solid transparent;
+    margin-left: 10vw;
+    margin-top: 7vw;
 }
-.bottom-right {
-    border: 1px solid black;
-    width: 30%;
-    height: 60px;
+.grid4 {
+    border: 1vw solid black;
+    width: 4vw;
+    height: 2vw;
     background-color: rgb(0, 0, 0);
-    border-radius: 0 100px 100px 0;
-    margin-right: 300px;
-    margin-bottom: 200px;
+    border-radius: 0 100vw 100vw 0;
+    margin-top: 0vw;
 }
-.bottom-left {
+.grid3 {
    
-   width: 65px;
-    height: 34px;
-    /* border-radius: 100%; */
+    width: 4vw;
+    height: 3vw;
     background-color: rgb(253, 7, 7);
-    padding-top: 28px;
-    margin-left: 297px;
-    margin-bottom: 200px;
+    padding-top: 1vw;
+    margin-left: 10vw;
+    margin-bottom: 19vw;
 }
