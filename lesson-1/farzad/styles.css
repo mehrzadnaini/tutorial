@@ -1,21 +1,10 @@
-.logo {
-    display:inline-grid;
-    grid-template-columns:auto auto;
-    gap:5px;
-    width: 10vw;
-}
-
-.grid2 {
-    border: 1vw solid black;
-    width: 2vw;
-    height: 2vw;
-    background-color: rgb(0, 0, 0);
-    border-radius: 0 100vw 100vw 0;
-    margin-top: 7vw;
-}
-
-.grid1 {
-   
+.logo { 
+	display: inline-grid; 
+	grid-template-columns: auto auto ;
+	gap: 5px ;
+	width: 10vw;
+ }
+ .logo_grid1 { 
     width: 0;
     height: 0;
     border-top: 4vw solid transparent;
@@ -23,21 +12,30 @@
     border-bottom: 0 solid transparent;
     margin-left: 10vw;
     margin-top: 7vw;
-}
-.grid4 {
-    border: 1vw solid black;
-    width: 4vw;
+ }
+ .logo_grid2 {
+	border: 1vw solid black;
+    width: 2vw;
     height: 2vw;
     background-color: rgb(0, 0, 0);
     border-radius: 0 100vw 100vw 0;
-    margin-top: 0vw;
-}
-.grid3 {
-   
+    margin-top: 7vw;
+ }
+ .logo_grid3 {
     width: 4vw;
     height: 3vw;
     background-color: rgb(253, 7, 7);
     padding-top: 1vw;
     margin-left: 10vw;
     margin-bottom: 19vw;
-}
+ }
+ .logo_grid4 {
+    border: 1vw solid black;
+    width: 4vw;
+    height: 2vw;
+    background-color: rgb(0, 0, 0);
+    border-radius: 0 100vw 100vw 0;
+    margin-top: 0vw;
+ }
+
+
